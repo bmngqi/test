@@ -1,1 +1,0 @@
-/*Waiting for Kerberos system to work*/
