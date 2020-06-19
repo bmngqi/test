@@ -1,19 +1,19 @@
 #include <unistd.h>
+#include <stdio.h>
 
-void ft_putchar(void)
+void ft_print_alphabet(void)
 
 {
 	int x;
 	for (x='a'; x <= 'z'; ++x)
 	{
-		write(1, &x, 1);
+		putchar(x);
 	}
 	
 }
 
 int main()
 {
-ft_putchar();
-write(1, "\n", 1);
+ft_print_alphabet();
 return 0;
 }
