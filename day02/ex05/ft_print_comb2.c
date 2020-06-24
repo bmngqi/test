@@ -6,7 +6,7 @@
 /*   By: bmngqi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 14:50:44 by bmngqi            #+#    #+#             */
-/*   Updated: 2020/06/24 09:16:52 by bmngqi           ###   ########.fr       */
+/*   Updated: 2020/06/24 13:50:49 by bmngqi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,11 +54,6 @@ void ft_print_comb2(void)
 int main(void)
 {
 	ft_print_comb2();
-	
-	//firstblock();
-	//printf("\n");
-	//secondblock();
-	
 	
 	
 	return 0;
