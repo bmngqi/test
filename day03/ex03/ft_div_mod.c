@@ -6,7 +6,7 @@
 /*   By: bmngqi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 10:27:31 by bmngqi            #+#    #+#             */
-/*   Updated: 2020/06/26 10:28:21 by bmngqi           ###   ########.fr       */
+/*   Updated: 2020/06/26 12:18:31 by bmngqi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,4 @@ void ft_div_mod(int a, int b, int *div, int *mod)
 
 	div = &answer;
 	mod = &remainder;
-
-	printf("The integer is: %i\n", *div);
-	printf("The mod is: %i", *mod);
 }
