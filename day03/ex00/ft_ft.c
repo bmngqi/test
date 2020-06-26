@@ -6,13 +6,13 @@
 /*   By: bmngqi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/25 16:55:28 by bmngqi            #+#    #+#             */
-/*   Updated: 2020/06/26 09:19:30 by bmngqi           ###   ########.fr       */
+/*   Updated: 2020/06/26 09:36:50 by bmngqi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 #include <stdio.h>
 
-void ft_ft(int *x);
+void ft_ft(int *nbr);
 
 int main(void)
 {
@@ -23,9 +23,9 @@ int main(void)
 	ft_ft(y);
 }
 
-void ft_ft(int *x)
+void ft_ft(int *nbr)
 {
 	*x = 42;
-	printf("%i", *x);
+	printf("%i", *nbr);
 }
 
